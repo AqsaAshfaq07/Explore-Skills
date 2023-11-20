@@ -79,19 +79,19 @@ export default function Home() {
 
         <div className="row">
             <div className="campus-col">
-                <img src="/img/Campus1.png" width={332} height={221} alt=""/>
+                <Image src="/Image/Campus1.png" width={332} height={221} alt=""/>
                 <div className="layer">
                     <h3>DELHI</h3>
                 </div>
             </div>
             <div className="campus-col">
-                <img src="/img/Campus2.png" width={332} height={221} alt=""/>
+                <Image src="/Image/Campus2.png" width={332} height={221} alt=""/>
                 <div className="layer">
                     <h3>HYDERABAD</h3>
                 </div>
             </div>
             <div className="campus-col">
-                <img src="/img/Campus3.png" width={332} height={221} alt=""/>
+                <Image src="/Image/Campus3.png" width={332} height={221} alt=""/>
                 <div className="layer">
                     <h3>MUMBAI</h3>
                 </div>
@@ -111,19 +111,19 @@ export default function Home() {
 
         <div className="row">
             <div className="facilities-col">
-                <img src="/img/libary.png" width={332} height={221} alt=""/>
+                <Image src="/Image/libary.png" width={332} height={221} alt=""/>
                 <h3>Best Libary</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis asperiores atque aperiam.
                 </p>
             </div>
             <div className="facilities-col">
-                <img src="/img/playground.png" width={332} height={221} alt=""/>
+                <Image src="/Image/playground.png" width={332} height={221} alt=""/>
                 <h3>Athletics</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis asperiores atque aperiam.
                 </p>
             </div>
             <div className="facilities-col">
-                <img src="/img/food.png" width={332} height={221} alt=""/>
+                <Image src="/Image/food.png" width={332} height={221} alt=""/>
                 <h3>Tasty and Healthy Food</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis asperiores atque aperiam.
                 </p>
@@ -143,7 +143,7 @@ export default function Home() {
 
         <div className="row">
             <div className="testimonials-col">
-                <Image src="/img/user.png" width={332} height={221} alt=""/>
+                <Image src="/Image/user.png" width={332} height={221} alt=""/>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores in nostrum rerum voluptatem
                         praesentium veritatis alias omnis voluptate nisi aperiam, voluptatum quibusdam itaque a
@@ -157,7 +157,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="testimonials-col">
-                <Image src="/img/user.png" width={332} height={221} alt=""/>
+                <Image src="/Image/user.png" width={332} height={221} alt=""/>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores in nostrum rerum voluptatem
                         praesentium veritatis alias omnis voluptate nisi aperiam, voluptatum quibusdam itaque a

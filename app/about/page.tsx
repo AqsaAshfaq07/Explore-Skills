@@ -36,7 +36,7 @@ export default function About() {
                 <a href="#" className="hero_btn btn">EXPLORE NOW</a>
             </div>
             <div className="about-col">
-                <img src="/img/about.png" width={332} height={221} alt=""/>
+                <Image src="/Image/about.png" width={332} height={221} alt=""/>
             </div>
         </div>
     </section>
