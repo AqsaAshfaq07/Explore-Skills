@@ -131,7 +131,7 @@ export default function Home() {
             <div className="verticalLine"></div>
             <div className="Clear"></div>
         </div>
-        <h1>What Our Student Says</h1>
+        <h1>What Our Students Say</h1>
         <p>Discover firsthand experiences and testimonials from our students about their journey with us.</p>
 
         <div className="row">
