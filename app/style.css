@@ -22,10 +22,15 @@ nav {
 }
 
 nav .logo {
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* Set the main text color */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
     text-decoration: none;
-    font-size: 24px;
-    color: #fff3f3;
+    font-size: 35px;
+    color: #b68af4;
     font-weight: bold;
+    animation: neon-flicker 1.5s infinite alternate; /* Neon flicker animation */
+    transition: color 0.5s ease-in-out; /* Smooth color transition on hover */
 }
 
 nav .fab {

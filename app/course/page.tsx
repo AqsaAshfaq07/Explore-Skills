@@ -6,9 +6,7 @@ export default function Course(){
         <main>
             <section className="Sub-header">
         <nav>
-            <a href="/" className="logo">Xplore
-                <i className="fab fa-staylinked"></i>Skill
-            </a>
+            <a href="/" className="logo">LEARN HUB</a>
             <div className="nav-links" id="navLinks">
                  {/* reposnive bar open and close  */}
                 <Link href='hideMenu()' className="fa fa-times"></Link>
@@ -30,26 +28,20 @@ export default function Course(){
 
     <section className="course">
         <h1>Course We Offer</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <p>Explore a diverse range of programs designed to inspire learning and unlock opportunities for personal and professional growth.</p>
 
         <div className="row">
             <div className="course-col">
                 <h3>Undergraduate Programs</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolor corporis, commodi nihil quas
-                    soluta labore quisquam impedit distinctio explicabo aut minima quos pariatur unde aliquam earum
-                    laborum velit non.</p>
+                <p>Explore a diverse range of undergraduate programs at our institution, where academic excellence meets practical learning. Our dedicated faculty and state-of-the-art facilities provide a dynamic environment for students to thrive. From innovative courses to hands-on experiences, we are committed to shaping the next generation of leaders.</p>
             </div>
             <div className="course-col">
                 <h3>Graduate Programs</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolor corporis, commodi nihil quas
-                    soluta labore quisquam impedit distinctio explicabo aut minima quos pariatur unde aliquam earum
-                    laborum velit non.</p>
+                <p>Embark on an advanced academic journey with our comprehensive graduate programs. Designed to elevate your expertise and foster critical thinking, our graduate offerings encompass a spectrum of disciplines. Engage in cutting-edge research by immersing yourself in a vibrant intellectual community. Expand your horizons through our distinguished graduate education.</p>
             </div>
             <div className="course-col">
                 <h3>Adult Learning & Degree Completion</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolor corporis, commodi nihil quas
-                    soluta labore quisquam impedit distinctio explicabo aut minima quos pariatur unde aliquam earum
-                    laborum velit non.</p>
+                <p>Our flexible programs are designed for adult learners seeking to complete their degrees. With tailored support and convenient schedules, we are here to guide you as you achieve your academic goals and advance in your career. Break barriers and achieve your academic aspirations with our programs, where your journey to success is our priority.</p>
             </div>
         </div>
     </section>
@@ -60,26 +52,23 @@ export default function Course(){
 
     <section className="facilities">
         <h1>Best Courses</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <p>Our carefully curated programs that provide a pathway to success and fulfillment.</p>
 
         <div className="row">
             <div className="facilities-col">
-                <Image src="Image/course1.png" alt="" />
+                <Image src="/img/course1.png" width={332} height={221} alt="" />
                 <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis asperiores atque aperiam.
-                </p>
+                <p>Master the art of Web Development, where innovation meets coding expertise for a dynamic digital future.</p>
             </div>
             <div className="facilities-col">
-                <Image src="Image/course2.png" alt="" />
+                <Image src="/img/course2.png" width={332} height={221} alt="" />
                 <h3>Artificial Intelligence</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis asperiores atque aperiam.
-                </p>
+                <p>Embark on a journey into the future of technology with cutting-edge courses and hands-on experiences.</p>
             </div>
             <div className="facilities-col">
-                <Image src="Image/course3.png" alt="" />
+                <Image src="/img/course3.png" width={332} height={221} alt="" />
                 <h3>Data Science</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis asperiores atque aperiam.
-                </p>
+                <p>Unlock the power of data, where information holds the key to innovation.</p>
             </div>
         </div>
     </section>
@@ -90,19 +79,14 @@ export default function Course(){
     <section className="footer">
         <hr/>
         <h4>About Us</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima incidunt odio nam facilis, eligendi
-            <br/> Itaque fugiat cupiditate consectetur. Aliquid ab deserunt exercitationem, illum molestiae
-            dolorem.
-        </p>
-
+        <p>Empowering minds and fostering growth – welcome to our institution, where excellence meets community.</p>
+        <p>Copyright © 2021 <a href="/">Learn Hub</a>. All Rights Reserved</p>
         <div className="icons">
             <i className="fab fa-facebook-f"></i>
             <i className="fab fa-instagram"></i>
             <i className="fab fa-twitter"></i>
             <i className="fab fa-linkedin"></i>
         </div>
-        <p>Made with <i className="fas fa-heart"></i> by <a href="#">Sagar Developer</a></p>
-        <p>Copyright © 2021 <a href="index.html">Xplore Skill</a>. All Rights Reserved</p>
     </section>
      {/* Footer end  */}
         </main>

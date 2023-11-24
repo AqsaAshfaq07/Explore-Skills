@@ -7,9 +7,7 @@ export default function Home() {
     <section className="header">
         <nav>
             <Link href='/'></Link>
-            <a href="/" className="logo">Xplore
-                <i className="fab fa-staylinked"></i>Skill
-            </a>
+            <a href="/" className="logo">LEARN HUB</a>
             <div className="nav-links" id="navLinks">
                 {/* {Reposnive bar open and close }  */}
                 <i className="fa fa-times"></i>
@@ -28,9 +26,7 @@ export default function Home() {
         <div className="text_box">
             <h2>GET READY</h2>
             <p id="headtext">TO DISCOVER CAMPUS</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit consequuntur corrupti sapiente aut porro
-                <br></br> esse blanditiis in quae perspiciatis quo.
-            </p>
+            <p className=' neon-text text-4xl'>Welcome to Learn Hub: Your Premier Education Center for Higher Studies Services.</p>
             <a href="#" className="hero_btn">Visit Us To Know More</a>
         </div>
     </section>
@@ -42,26 +38,26 @@ export default function Home() {
             <div className="Clear"></div>
         </div>
         <h1>EXPLORE OUR 60+ <br></br> MAJOR PROGRAMS</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <p>These high demand degree programs equip students with world class education and skills. </p>
 
-        <div className="row">
+        <div className="row text-justify">
             <div className="course-col">
                 <h3>Undergraduate Programs</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolor corporis, commodi nihil quas
-                    soluta labore quisquam impedi distinctio explicabo aut minima quos pariatur unde aliquam earum
-                    laborum velit non.</p>
+                <p>Explore a diverse range of undergraduate programs at our institution, where academic excellence meets practical learning. Our dedicated faculty and state-of-the-art facilities provide a dynamic environment for students to thrive. From innovative courses to hands-on experiences, we are committed to shaping the next generation of leaders.</p>
             </div>
             <div className="course-col">
                 <h3>Graduate Programs</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolor corporis, commodi nihil quas
-                    soluta labore quisquam impedit distinctio explicabo aut minima quos pariatur unde aliquam earum
-                    laborum velit non.</p>
+                <p>Embark on an advanced academic journey with our comprehensive graduate programs. Designed to elevate 
+                    your expertise and foster critical thinking, our graduate offerings encompass a spectrum of disciplines.
+                    Engage in cutting-edge research by immersing yourself in a vibrant 
+                    intellectual community. Expand your horizons through our distinguished graduate education.</p>
             </div>
             <div className="course-col">
                 <h3>Adult Learning & Degree Completion</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolor corporis, commodi nihil quas
-                    soluta labore quisquam impedit distinctio explicabo aut minima quos pariatur unde aliquam earum
-                    laborum velit non.</p>
+                <p>Our flexible programs are designed for adult learners seeking to complete their degrees. 
+                    With tailored support and convenient schedules, we are here to guide you as you achieve your academic 
+                    goals and advance in your career. Break barriers and achieve your academic aspirations with our 
+                    programs, where your journey to success is our priority.</p>
             </div>
         </div>
     </section>
@@ -75,25 +71,25 @@ export default function Home() {
             <div className="Clear"></div>
         </div>
         <h1>TAKE OUR VIRTUAL TOUR</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <p>Experience our campus virtually and explore the essence of our institution.</p>
 
         <div className="row">
             <div className="campus-col">
-                <Image src="/Image/Campus1.png" width={332} height={221} alt=""/>
+                <Image src="/img/Campus1.png" width={332} height={221} alt=""/>
                 <div className="layer">
-                    <h3>DELHI</h3>
+                    <h3>School of Engineering</h3>
                 </div>
             </div>
             <div className="campus-col">
-                <Image src="/Image/Campus2.png" width={332} height={221} alt=""/>
+                <Image src="/img/Campus2.png" width={332} height={221} alt=""/>
                 <div className="layer">
-                    <h3>HYDERABAD</h3>
+                    <h3>School of Life Sciences</h3>
                 </div>
             </div>
             <div className="campus-col">
-                <Image src="/Image/Campus3.png" width={332} height={221} alt=""/>
+                <Image src="/img/Campus3.png" width={332} height={221} alt=""/>
                 <div className="layer">
-                    <h3>MUMBAI</h3>
+                    <h3>School of Artificial Intelligence</h3>
                 </div>
             </div>
         </div>
@@ -107,26 +103,23 @@ export default function Home() {
             <div className="Clear"></div>
         </div>
         <h1>Our Facilities</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <p>Discover cutting-edge spaces designed to enhance your learning experience and foster innovation.</p>
 
         <div className="row">
             <div className="facilities-col">
-                <Image src="/Image/libary.png" width={332} height={221} alt=""/>
+                <Image src="/img/libary.png" width={332} height={221} alt=""/>
                 <h3>Best Libary</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis asperiores atque aperiam.
-                </p>
+                <p>Explore a world of knowledge in our exceptional library, where learning comes to life.</p>
             </div>
             <div className="facilities-col">
-                <Image src="/Image/playground.png" width={332} height={221} alt=""/>
+                <Image src="/img/playground.png" width={332} height={221} alt=""/>
                 <h3>Athletics</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis asperiores atque aperiam.
-                </p>
+                <p>Elevate your passion for sports and well-being in our dynamic athletic programs.</p>
             </div>
             <div className="facilities-col">
-                <Image src="/Image/food.png" width={332} height={221} alt=""/>
+                <Image src="/img/food.png" width={332} height={250} alt=""/>
                 <h3>Tasty and Healthy Food</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis asperiores atque aperiam.
-                </p>
+                <p>Indulge in a delightful culinary experience with our menu crafted to blend flavor and nutrition seamlessly.</p>
             </div>
         </div>
     </section>
@@ -139,16 +132,16 @@ export default function Home() {
             <div className="Clear"></div>
         </div>
         <h1>What Our Student Says</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <p>Discover firsthand experiences and testimonials from our students about their journey with us.</p>
 
         <div className="row">
             <div className="testimonials-col">
-                <Image src="/Image/user.png" width={332} height={221} alt=""/>
+                <Image src="/img/user.png" width={332} height={221} alt=""/>
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores in nostrum rerum voluptatem
-                        praesentium veritatis alias omnis voluptate nisi aperiam, voluptatum quibusdam itaque a
-                        deserunt. In quia repellat maxime.</p>
-                    <h3>Student Name</h3>
+                    <p>Exceptional learning environment! The supportive faculty and engaging courses have truly enriched 
+                    my educational journey. The diverse opportunities for growth and the welcoming community make it an 
+                    outstanding place to thrive.</p>
+                    <h3>Ayesha Ali</h3>
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
@@ -157,12 +150,12 @@ export default function Home() {
                 </div>
             </div>
             <div className="testimonials-col">
-                <Image src="/Image/user.png" width={332} height={221} alt=""/>
+                <Image src="/img/user.png" width={332} height={221} alt=""/>
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores in nostrum rerum voluptatem
-                        praesentium veritatis alias omnis voluptate nisi aperiam, voluptatum quibusdam itaque a
-                        deserunt. In quia repellat maxime.</p>
-                    <h3>Student Name</h3>
+                <p>Outstanding experience! The innovative approach to education and the commitment to student success set
+                this institution apart. I have found inspiration in the well-rounded curriculum and the supportive community. 
+                A place where academic and personal growth go hand in hand.</p>
+                    <h3>Umer Shah</h3>
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
@@ -177,7 +170,7 @@ export default function Home() {
     <!-- Call To Action Section Start --> */}
     <section className="cta">
         <h1>GET READY FOR A BRIGHT FUTURE</h1>
-        <a href="contact.html" className="hero_btn">CONTACT US</a>
+        <a href="/contact" className="hero_btn">CONTACT US</a>
     </section>
     {/* <!-- Call To Action Section End --> */}
 
@@ -185,18 +178,15 @@ export default function Home() {
     <section className="footer">
         <hr></hr>
         <h4>About Us</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima incidunt odio nam facilis, eligendi
-            Itaque fugiat cupiditate consectetur. Aliquid ab deserunt exercitationem, illum molestiae dolorem.
-        </p>
-
+        <p>Empowering minds and fostering growth – welcome to our institution, where excellence meets community.</p>
+        <p>Copyright © 2021 <a href="/">Learn Hub</a>. All Rights Reserved</p>
         <div className="icons">
             <i className="fab fa-facebook-f"></i>
             <i className="fab fa-instagram"></i>
             <i className="fab fa-twitter"></i>
             <i className="fab fa-linkedin"></i>
         </div>
-        <p>Made with <i className="fas fa-heart"></i> by <a href="index.html">Sagar Developer</a></p>
-        <p>Copyright © 2021 <a href="index.html">Xplore Skill</a>. All Rights Reserved</p>
+        
     </section>
     {/* <!-- Footer Section End --> */}
 

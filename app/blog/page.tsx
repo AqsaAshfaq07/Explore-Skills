@@ -6,9 +6,7 @@ export default function Contact() {
         <main>
             <section className="Sub-header">
         <nav>
-            <a href="/" className="logo">Xplore
-                <i className="fab fa-staylinked"></i>Skill
-            </a>
+            <a href="/" className="logo">LEARN HUB</a>
             <div className="nav-links" id="navLinks">
                 {/* reposnive bar open and close */}
                 <Link href='/hideMenu' className='fa fa-times'></Link>
@@ -32,27 +30,13 @@ export default function Contact() {
         <div className="row">
             <div className="blog-left">
                 <h2>Our Certificate & Online Program</h2>
-                <h5>Aug 1, 2021</h5>
-                <Image src="Image/post.png" alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolor consequatur, nobis quae obcaecati delectus at aspernatur, placeat quasi iure mollitia. Repellendus a ut nostrum dolore velit odit cumque, quos doloribus sint id aperiam eius aliquam quo modi sequi rem quia exercitationem laborum, ratione expedita! Deleniti velit officia incidunt illum.</p>
+                <h5>Aug 1, 2023 </h5>
+                <Image src="/img/post.png" width={332} height={221} alt="" />
+                <p>Embark on a journey of skill development and professional growth with our Certificate & Online Programs. Delve into a range of courses meticulously crafted to meet the demands of todays dynamic industries. Whether you are seeking to enhance your expertise or explore new horizons, our programs offer flexibility and excellence.</p>
                 <br/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore corrupti blanditiis deserunt
-                    incidunt itaque ut laudantium a amet omnis nihil, dolor doloribus. Voluptatum, accusantium? Quo,
-                    aperiam nobis labore pariatur, esse vitae amet repellendus libero architecto nisi facere unde
-                    ducimus perspiciatis, laudantium alias porro. Sapiente voluptatem eligendi at voluptatum optio
-                    facilis?</p>
+                <p>Discover a diverse array of online courses designed to cater to various fields, allowing you to learn at your own pace. Our industry-relevant curriculum is curated to provide practical knowledge and hands-on experience, ensuring you are well-equipped for success.</p>
                 <br/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore corrupti blanditiis deserunt
-                    incidunt itaque ut laudantium a amet omnis nihil, dolor doloribus. Voluptatum, accusantium? Quo,
-                    aperiam nobis labore pariatur, esse vitae amet repellendus libero architecto nisi facere unde
-                    ducimus perspiciatis, laudantium alias porro. Sapiente voluptatem eligendi at voluptatum optio
-                    facilis?</p>
-                <br/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore corrupti blanditiis deserunt
-                    incidunt itaque ut laudantium a amet omnis nihil, dolor doloribus. Voluptatum, accusantium? Quo,
-                    aperiam nobis labore pariatur, esse vitae amet repellendus libero architecto nisi facere unde
-                    ducimus perspiciatis, laudantium alias porro. Sapiente voluptatem eligendi at voluptatum optio
-                    facilis?</p>
+                <p>Join a community of dedicated learners and experienced instructors committed to fostering a collaborative and enriching online learning environment. Our Certificate & Online Programs are your gateway to acquiring valuable skills and staying ahead in your professional journey.</p>
 
                 <div className="comment-box">
                     <h3>Leave a Comment</h3>
@@ -97,19 +81,14 @@ export default function Contact() {
     <section className="footer">
         <hr/>
         <h4>About Us</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima incidunt odio nam facilis, eligendi
-            <br/> Itaque fugiat cupiditate consectetur. Aliquid ab deserunt exercitationem, illum molestiae
-            dolorem.
-        </p>
-
+        <p>Empowering minds and fostering growth – welcome to our institution, where excellence meets community.</p>
+        <p>Copyright © 2021 <a href="/">Learn Hub</a>. All Rights Reserved</p>
         <div className="icons">
             <i className="fab fa-facebook-f"></i>
             <i className="fab fa-instagram"></i>
             <i className="fab fa-twitter"></i>
             <i className="fab fa-linkedin"></i>
         </div>
-        <p>Made with <i className="fas fa-heart"></i> by <a href="#">Sagar Developer</a></p>
-        <p>Copyright © 2021 <a href="index.html">Xplore Skill</a>. All Rights Reserved</p>
     </section>
     {/* Footer Section end  */}
         </main>
