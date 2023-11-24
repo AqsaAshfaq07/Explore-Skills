@@ -36,7 +36,7 @@ nav .logo {
 nav .fab {
     font-size: 42px;
     /* color: #5236f4; */
-    color: #24f8c7;
+    color: #087c61;
 }
 
 .nav-links {
@@ -63,7 +63,7 @@ nav .fab {
     content: '';
     width: 0%;
     height: 2px;
-    background: #24f8c7;
+    background: #087c61;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -86,7 +86,7 @@ nav .fab {
 .text_box h2 {
     font-size: 90px;
     font-weight: 900;
-    color: #24f8c7;
+    color: #087c61;
 }
 
 .text_box #headtext {
@@ -118,8 +118,8 @@ nav .fab {
 }
 
 .hero_btn:hover {
-    border: 1px solid #24f8c7;
-    background: #24f8c7;
+    border: 1px solid #087c61;
+    background: #087c61;
     transition: 1s;
 }
 
@@ -186,7 +186,7 @@ nav .fa {
 .verticalLine {
     widtH: 2px;
     height: 100px;
-    background: #24f8c7;
+    background: #087c61;
     margin: 0 auto 40px;
 }
 
@@ -200,7 +200,7 @@ h1 {
     margin: 15px 0;
     line-height: 50px;
     text-transform: uppercase;
-    color: #24f8c7;
+    color: #087c61;
 }
 
 p {
@@ -287,7 +287,7 @@ p {
 
 .layer:hover {
     /* background: rgba(226, 0, 0, 0.7); */
-    background: #24f8c741;
+    background: #087c6141;
 }
 
 .layer h3 {
@@ -386,7 +386,7 @@ p {
 }
 
 .testimonials-col .fa {
-    color: #24f8c7;
+    color: #087c61;
 }
 
 @media (max-width: 700px) {
@@ -449,7 +449,7 @@ p {
 }
 
 .footer a:hover {
-    color: #24f8c7;
+    color: #087c61;
 }
 
 .icons .fab {
@@ -460,11 +460,11 @@ p {
 }
 
 .icons .fab:hover{
-    color: #24f8c7;
+    color: #087c61;
 }
 
 .fa-heart {
-    color: #24f8c7;
+    color: #087c61;
 }
 
 hr {
@@ -549,7 +549,7 @@ hr {
 }
 
 .blog-left h5 {
-    color: #24f8c7;
+    color: #087c61;
     font-weight: bolder;
     margin: 5px 0;
     cursor: pointer;
@@ -565,7 +565,7 @@ hr {
 }
 
 .blog-right h3 {
-    background: #24f8c7;
+    background: #087c61;
     color: #fff;
     padding: 7px 0;
     font-size: 16px;
@@ -583,7 +583,7 @@ hr {
 }
 
 .blog-right div:hover {
-    color: #24f8c7;
+    color: #087c61;
     cursor: pointer;
 }
 
@@ -653,7 +653,7 @@ hr {
 
 .content-col div .fa {
     font-size: 28px;
-    color: #24f8c7;
+    color: #087c61;
     margin: 10px;
     margin-right: 30px;
 }
